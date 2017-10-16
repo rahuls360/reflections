@@ -1,0 +1,35 @@
+Reflections of Version Control
+
+How did viewing the difference b/w two versions help you spot the bug?
+It helped by showing on the lines where there is a difference b/w the code. So I had lesser lines to compare manually.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Compare various versions to see which is more efficient. Refine new code to improve it further.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Manually choosing lets us set logical checkpoints which help in comparison. 
+Automatic saving helps when people forget to save
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+The files which are interdependent required to be tracked together, to avoid breaking the operation.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows all the commits made in descending order, and see what change was made(message). 
+git diff b/w two commits helps you compare two versions to see the lines added or removed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Reverting back to an earlier version is possible, which gives you the freedom to make extreme changes to the code. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Android app development
